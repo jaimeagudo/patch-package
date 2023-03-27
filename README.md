@@ -152,6 +152,8 @@ team.
   to the root dir of the package to be patched.
 
   Default value: `package\\.json$`
+  
+  To include `package.json` too: `--exclude '^$'`
 
 - `--include <regexp>`
 
